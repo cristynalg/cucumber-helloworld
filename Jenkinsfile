@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Get Code')
+        stage('Workspace')
         {
             steps{
                 bat 'dir'
