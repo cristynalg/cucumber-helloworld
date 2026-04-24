@@ -24,7 +24,7 @@ pipeline {
         {
             steps {
                 catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-                    bat 'mvn test'
+                    bat 'C:\\Users\\Cris\\Desktop\\Tema4y6\\apache-maven-3.9.15\\bin\\ mvn test'
                 }
             }
         }
